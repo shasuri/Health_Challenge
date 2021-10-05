@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "lcy8047",
+      "name": "lcy8047",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35690965?v=4",
+      "profile": "https://github.com/lcy8047",
+      "contributions": [
+        "example"
+      ]
+    },
+    {
+      "login": "icarusicarus",
+      "name": "Yeryeong Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76420409?v=4",
+      "profile": "https://github.com/icarusicarus",
+      "contributions": [
+        "example"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Health_Challenge",
+  "projectOwner": "lcy8047",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
