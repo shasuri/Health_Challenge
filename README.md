@@ -1,6 +1,6 @@
 # Health_Challenge
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## commit 하는 법
 1. fork이후 본인의 디렉토리를 만듭니다.
@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/icarusicarus"><img src="https://avatars.githubusercontent.com/u/76420409?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yeryeong Kim</b></sub></a><br /><a href="#example-icarusicarus" title="Examples">💡</a></td>
     <td align="center"><a href="https://github.com/gusah009"><img src="https://avatars.githubusercontent.com/u/26597702?v=4?s=100" width="100px;" alt=""/><br /><sub><b>정핸모</b></sub></a><br /><a href="#example-gusah009" title="Examples">💡</a></td>
     <td align="center"><a href="http://linkedin.com/in/hyorim-lee-bb35ab178/"><img src="https://avatars.githubusercontent.com/u/37135345?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hyorim Lee</b></sub></a><br /><a href="#example-hyorimlee" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/zetwhite"><img src="https://avatars.githubusercontent.com/u/61981457?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SeungHui Youn</b></sub></a><br /><a href="#example-zetwhite" title="Examples">💡</a></td>
   </tr>
 </table>
 
