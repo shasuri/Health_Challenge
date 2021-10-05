@@ -40,6 +40,15 @@
       "contributions": [
         "example"
       ]
+    },
+    {
+      "login": "zetwhite",
+      "name": "SeungHui Youn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61981457?v=4",
+      "profile": "https://github.com/zetwhite",
+      "contributions": [
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
