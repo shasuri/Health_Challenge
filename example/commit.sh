@@ -54,7 +54,7 @@ while : ; do
             echo -n "plank time ex) 1m30s : "
             read PLANK_TIME
             echo "plank : $PLANK_TIME" > ./$DATE
-            EXERCISE="pull-up"
+            EXERCISE="plank"
             ;;
         *)
             echo "Wrong Input\n"
