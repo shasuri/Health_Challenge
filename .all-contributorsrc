@@ -22,6 +22,33 @@
       "contributions": [
         "example"
       ]
+    },
+    {
+      "login": "gusah009",
+      "name": "정핸모",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26597702?v=4",
+      "profile": "https://github.com/gusah009",
+      "contributions": [
+        "example"
+      ]
+    },
+    {
+      "login": "hyorimlee",
+      "name": "Hyorim Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37135345?v=4",
+      "profile": "http://linkedin.com/in/hyorim-lee-bb35ab178/",
+      "contributions": [
+        "example"
+      ]
+    },
+    {
+      "login": "zetwhite",
+      "name": "SeungHui Youn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61981457?v=4",
+      "profile": "https://github.com/zetwhite",
+      "contributions": [
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
