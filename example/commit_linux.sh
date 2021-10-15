@@ -85,14 +85,14 @@ echo
 git add ./$DATE
 echo "> git add ./$DATE"
 
-echo "git commit -m [shasuri] $EXERCISE"
+echo "git commit -m [name] $EXERCISE"
 while : ; do
 	echo "1.confirm 2.cancel"
 	echo -n "> "
 	read INPUT
 	case $INPUT in
 		1)
-			git commit -m "[shasuri] $EXERCISE"
+			git commit -m "[name] $EXERCISE"
 			break
 			;;
 		2)
