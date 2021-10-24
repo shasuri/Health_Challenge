@@ -29,85 +29,50 @@ touch $DATE
 
 # write exercise record in date file
 echo
-
 while : ; do
-    echo "Select exercises and choose finish"
-    echo "1. running 2. pull-up 3. plank 4. finish"
+    echo "Select Exercise"
+    echo "1. both 2. pull-up 3. plank"
     echo -n "> "
     read INPUT
     case $INPUT in
         1)
-            echo -n "running time ex) 15m30s : "
-            read RUNNING_TIME
-            echo -n "running distance ex) 2.3km : "
-            read RUNNING_DIST
-            echo "running : $RUNNING_TIME $RUNNING_DIST" >> ./$DATE
-            EXERCISE=$EXERCISE"running "
+            echo -n "pull up count ex) 12 : "
+            read PULL_UP_COUNT
+            echo -n "plank time ex) 1m30s : "
+            read PLANK_TIME
+            echo "pull-up : $PULL_UP_COUNT" > ./$DATE
+            echo "plank : $PLANK_TIME" >> ./$DATE
+            EXERCISE="pull-up, plank"
             ;;
         2)
             echo -n "pull up count ex) 12 : "
             read PULL_UP_COUNT
-            echo "pull-up : $PULL_UP_COUNT" >> ./$DATE
-            EXERCISE=$EXERCISE"pull-up "
+            echo "pull-up : $PULL_UP_COUNT" > ./$DATE
+            EXERCISE="pull-up"
             ;;
         3)
             echo -n "plank time ex) 1m30s : "
             read PLANK_TIME
-            echo "plank : $PLANK_TIME" >> ./$DATE
-            EXERCISE=$EXERCISE"plank "
-            ;;
-        4)
-            echo -n "Fin."
-            break
+            echo "plank : $PLANK_TIME" > ./$DATE
+            EXERCISE="pull-up"
             ;;
         *)
             echo "Wrong Input\n"
             continue
             ;;
     esac
-done
-
-echo
-echo "----result----"
-cat ./$DATE
-echo "--------------"
-
-while : ; do
+    echo
+    echo "----result----"
+    cat ./$DATE
+    echo "--------------"
     echo "1.confirm 2.cancel"
     echo -n "> "
-    read INPUT
-    case $INPUT in
-        1)
-            break
-            ;;
-        2)
-            exit 1
-            ;;
-        *)
-            echo "Wrong Input\n"
-            ;;
-    esac
-done
-
-# git add & commit
-echo
-git add ./$DATE
-echo "> git add ./$DATE"
-
-USERNAME=`basename $PWD`
-# USERNAME=`pwd | rev | awk -F '/' '{print $1}' | rev`
-echo "git commit -m [$USERNAME] $EXERCISE"
-while : ; do
-	echo "1.confirm 2.cancel"
-	echo -n "> "
 	read INPUT
-	case $INPUT in
+    case $INPUT in
 		1)
-			git commit -m "[$USERNAME] $EXERCISE"
 			break
 			;;
 		2)
-			exit 2
 			;;
 		*)
 			echo "Wrong Input\n"
@@ -115,4 +80,26 @@ while : ; do
 	esac
 done
 
-exit 0
+# git add & commit
+echo
+git add ./$DATE
+echo "> git add ./$DATE"
+
+echo "git commit -m [name] $EXERCISE"
+while : ; do
+	echo "1.confirm 2.cancel"
+	echo -n "> "
+	read INPUT
+	case $INPUT in
+		1)
+			git commit -m "[name] $EXERCISE"
+			break
+			;;
+		2)
+			exit
+			;;
+		*)
+			echo "Wrong Input\n"
+			;;
+	esac
+done
