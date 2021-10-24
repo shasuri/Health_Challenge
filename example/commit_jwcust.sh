@@ -103,7 +103,7 @@ while : ; do
 	read INPUT
 	case $INPUT in
 		1)
-			git commit -m "[$USERNAME] $EXERCISE !TEST!"
+			git commit -m "[$USERNAME] $EXERCISE"
 			break
 			;;
 		2)
