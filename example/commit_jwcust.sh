@@ -20,7 +20,6 @@ while : ; do
             ;;
         *)
             echo "Wrong Input\n"
-            break
             ;;
     esac
 done
